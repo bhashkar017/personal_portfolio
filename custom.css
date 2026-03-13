@@ -398,6 +398,17 @@ a {
     transform: scale(1.02);
 }
 
+.experience-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #fff;
+    padding: 5px;
+    margin-right: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
     .timeline::before {
         left: 20px;
